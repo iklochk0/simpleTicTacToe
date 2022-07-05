@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Digital";
+    src: url(font/digital.ttf);
+}
+
+* {
+    margin: 0 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+
+table {
+    margin: 0 auto;
+    padding: 0 0;
+    width: 450px;
+    height: 450px;
+}
+
+tr {
+    margin: 0 0;
+    width: 450px;
+}
+
+td, div {
+    margin: 0 0;
+    padding: 0;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Digital";
+    font-size: 145px;
+    background-color: white;
+    color: red;
+}
+
+td {
+    border: 1px solid black;
+}
+
+button {
+    position: relative;
+    top: 20px;
+    left: 60%;
+    padding: 8px 4px;
+    font-size: larger;
+}
+
+.draw {
+    color: white;
+    background-color: blueviolet;
+}
+
+.notnot {
+    background-color: white;
+    color: red;
+}
+
+.winner {
+    background-color: chartreuse;
+    color: black;
+}
